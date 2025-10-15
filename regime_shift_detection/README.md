@@ -1,6 +1,6 @@
 ## 🔍 Regime Shift Detection Steps
 
-The regime shift detection algorithm identifies statistically significant and persistent changes in the mean state of a climate variable (e.g., SST, SAT, or circulation index).  
+The regime shift detection algorithm identifies statistically significant and persistent changes in the mean state of a climate variable (e.g., SST, SAT, or soil moisture).  
 The method follows the **Sequential t-test Analysis of Regime Shifts (STARS)** framework (Rodionov 2004) with optional bootstrap confidence testing.
 
 ---
