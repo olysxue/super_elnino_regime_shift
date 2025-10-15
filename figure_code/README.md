@@ -14,6 +14,8 @@ All scripts were developed and tested using **NCL version 6.6.2**.
 | Script | Figure | Description | Required Data |
 |--------|--------|-------------|---------------|
 | `Figure1_CESM_TIW_intensity.ncl` | Fig. 1 | CESM-UHR-simulated TIW intensity and structure compared to reanalysis | four TIW metrics in CESM-UHR: EKE, SST, SSH, and VVEL fields|
+<img width="432" height="388" alt="image" src="https://github.com/user-attachments/assets/b6e56419-1640-4ba3-84ed-53adb489d369" />
+
 | `Figure2_plot_CESM_PD_2xCO2_4xCO2_zonal_ccurrent_TIW_intensity.ncl` | Fig. 2 |Projected changes of tropical mean background state modulating in CESM-UHR | CESM-UHR monthly mean outputs under PD, 2xCO2, and 4xCO2: wind stress, temp, zonal currents |
 | `Figure3_CESM_seasonal_zonal_current_TIW_intensity_response.ncl` | Fig. 3 | Seasonal evolution of background conditions and TIW intensity under different CO2 simulations in CESM-UHR | four TIW metrics in CESM-UHR: EKE, SST, SSH, and VVEL fields|
 | `Figure4_TIW_EKE_budget_analysis.ncl` | Fig. 4 | TIW-EKE budget analysis under different CO2 simulations in CESM-UHR | Barotrpic energy conversion rate and Baroclinic energy conversion rate in CESM-UHR |
