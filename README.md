@@ -1,5 +1,5 @@
 
-# "Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming", Accepted in Nature Communications.
+# **"Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming"**, Accepted in Nature Communications.
 
 This repository contains the code supporting the manuscript:
 
