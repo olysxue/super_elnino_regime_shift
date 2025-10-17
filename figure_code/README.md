@@ -3,7 +3,7 @@
 
 This folder contains NCL scripts used to generate **Main Figures 1–4** in the manuscript:
 
-**"Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming"**, published in *Nature Communications*.
+**"Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming"**, Accepted in *Nature Communications*.
 
 All scripts were developed and tested using **NCL version 6.6.2**.
 
