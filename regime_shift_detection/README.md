@@ -97,17 +97,17 @@ All scripts are **modular** and can be easily adapted to different climate varia
 
 ### **References**
 
-Rodionov, S.N., 2004: A sequential algorithm for testing climate regime shifts. Geophys. Res. Lett., 31, L09204, doi:10.1029/2004GL019448.
+（1）Rodionov, S.N., 2004: A sequential algorithm for testing climate regime shifts. Geophys. Res. Lett., 31, L09204, doi:10.1029/2004GL019448.
 
-Rodionov, S.N., 2005a: A brief overview of the regime shift detection methods. In: Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems: Challenges for Management Toward Sustainability, V. Velikova and N. Chipev (Eds.), UNESCO-ROSTE/BAS Workshop on Regime Shifts, 14-16 June 2005, Varna, Bulgaria, 17-24.
+（2）Rodionov, S.N., 2005a: A brief overview of the regime shift detection methods. In: Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems: Challenges for Management Toward Sustainability, V. Velikova and N. Chipev (Eds.), UNESCO-ROSTE/BAS Workshop on Regime Shifts, 14-16 June 2005, Varna, Bulgaria, 17-24.
 
-Rodionov, S.N., 2005b: Detecting regime shifts in the mean and variance: Methods and specific examples. In: Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems: Challenges for Management Toward Sustainability, V. Velikova and N. Chipev (Eds.), UNESCO-ROSTE/BAS Workshop on Regime Shifts, 14-16 June 2005, Varna, Bulgaria, 68-72.
+（3）Rodionov, S.N., 2005b: Detecting regime shifts in the mean and variance: Methods and specific examples. In: Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems: Challenges for Management Toward Sustainability, V. Velikova and N. Chipev (Eds.), UNESCO-ROSTE/BAS Workshop on Regime Shifts, 14-16 June 2005, Varna, Bulgaria, 68-72.
 
-Rodionov, S.N., 2006: The use of prewhitening in climate regime shift detection, Geophys. Res. Lett., 31, L12707, doi:101029/2006GL025904.
+（4）Rodionov, S.N., 2006: The use of prewhitening in climate regime shift detection, Geophys. Res. Lett., 31, L12707, doi:101029/2006GL025904.
 
-Rodionov, S.N., and J.E. Overland, 2005: Application of a sequential regime shift detection method to the Bering Sea ecosystem. ICES J. Mar. Sci., 62: 328-332.
+（5）Rodionov, S.N., and J.E. Overland, 2005: Application of a sequential regime shift detection method to the Bering Sea ecosystem. ICES J. Mar. Sci., 62: 328-332.
 
-Rodionov, S.N., J.E. Overland, and N.A. Bond 2004: Detecting Change in the Bering Sea Ecosystem. A PowerPoint file (1.4 Mb) of the presentation at the Symposium on Marine Science in Alaska, Jan 12-14, 2004, Anchorage, Alaska
+（6）Rodionov, S.N., J.E. Overland, and N.A. Bond 2004: Detecting Change in the Bering Sea Ecosystem. A PowerPoint file (1.4 Mb) of the presentation at the Symposium on Marine Science in Alaska, Jan 12-14, 2004, Anchorage, Alaska
 
 ---
 ### 🔗 Useful Websites
