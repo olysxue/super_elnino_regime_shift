@@ -116,9 +116,6 @@ V. Velikova and N. Chipev (Eds.), UNESCO–ROSTE/BAS Workshop on Regime Shifts, 
 **(5)** **Rodionov, S. N.**, and **Overland, J. E.** (2005). *Application of a sequential regime shift detection method to the Bering Sea ecosystem.*  
 **ICES Journal of Marine Science**, **62**, 328–332. [https://doi.org/10.1016/j.icesjms.2005.01.013](https://doi.org/10.1016/j.icesjms.2005.01.013)
 
-**(6)** **Rodionov, S. N.**, **Overland, J. E.**, and **Bond, N. A.** (2004). *Detecting change in the Bering Sea ecosystem.*  
-PowerPoint presentation at the **Symposium on Marine Science in Alaska**, Jan 12–14 2004, Anchorage, Alaska.
-
 
 ---
 ### 🔗 Useful Websites
