@@ -1,25 +1,23 @@
 ## 🔍 Regime Shift Detection Steps
 
-The regime shift detection algorithm identifies statistically significant and persistent changes in the mean state of a climate variable (e.g., SST, SAT, or soil moisture).  
+The regime shift detection algorithm identifies statistically significant and persistent changes in the mean state of a climate variable (e.g., SST, SAT, soil moisture or sea ice).  
 The method follows the **Sequential t-test Analysis of Regime Shifts (STARS)** framework (Rodionov 2004) with optional bootstrap confidence testing.
 
 ---
 
 ### **Step 1: Input Data**
 - Load an anomaly time series (monthly or annual) of the target variable.  
-- The series should be detrended if long-term trends are not the focus.  
+- The series should be detrended.  
 - Input can be either:
   - 1D (time series of regional mean), or  
   - 3D (time–lat–lon field for gridwise detection).
+
+This method enables the identification of climate regime shifts (CRSs) in a purely data-driven manner, without requiring prior assumptions regarding the timing or number of shifts.
 
 ---
 
 ### **Step 2: Apply Pre-Filtering (Optional)**
 - Smooth or band-pass filter the data to remove high-frequency noise.  
-- Typical filters:
-  - Running-mean (e.g., 5- or 10-year window)  
-  - Lanczos 10–50 day band-pass (for sub-seasonal analysis)
-
 ---
 
 ### **Step 3: Define a Moving Window**
@@ -69,7 +67,7 @@ For each time t:
 ---
 
 ### **Example Interpretation**
-A 10-year moving-window test applied to 1950–2024 SST anomalies may identify persistent regime shifts in:
+A 10-year moving-window test applied to 1958–2024 SST anomalies may identify persistent regime shifts in:
 - **1976–77:** Pacific climate transition,  
 - **1998:** Post-Super El Niño cooling phase,  
 - **2016:** Recent Super El Niño-induced shift toward a new warming regime.
