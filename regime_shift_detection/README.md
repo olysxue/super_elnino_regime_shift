@@ -66,17 +66,16 @@ A 10-year moving-window test applied to 1958–2024 SST anomalies may identify p
 - **1976–77:** Pacific climate transition,  
 - **1998:** Post-Super El Niño cooling phase,  
 - **2016:** Recent Super El Niño-induced shift toward a new warming regime.
-
 ---
+
+## 📂 Directory Overview
+
 
 This directory provides representative examples of the **regime shift detection framework** applied in the *Super El Niño–induced Climate Regime Shifts* study.  
 It contains both **NCL** and **MATLAB** implementations of the **Sequential t-test Analysis of Regime Shifts (STARS)** algorithm (Rodionov 2004), illustrating how the detection was performed for different datasets and variables.
 
 These are **demonstration files** — not the full analysis suite — intended to help users reproduce the key detection workflow and adapt it for their own applications.
 
----
-
-## 📂 Directory Overview
 
 | File | Language | Purpose |
 |------|-----------|----------|
