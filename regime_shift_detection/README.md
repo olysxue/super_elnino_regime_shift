@@ -90,17 +90,14 @@ These are **demonstration files** — not the full analysis suite — intended t
 ---
 ## ⚙️ Workflow Summary
 
-1. **Detection** – Apply the STARS algorithm to identify significant and persistent mean-state shifts for each grid point or region.  
-2. **Verification** – Confirm shift persistence and remove transient events.  
+1. **Detection** – Apply the STARS algorithm to identify significant and persistent mean-state shifts for each grid point or region.   
 3. **Probability Calculation** –  
-   - Count the **number of regime-shift occurrences** at each grid cell.  
-   - Convert to **annual or decadal probabilities** by dividing by the sample length.  
+   - Count the **number of regime-shift occurrences** at each grid cell.   
    - Compute probabilities separately for:  
      - **Super El Niño (SE) years** (e.g., 1982/83, 1997/98, 2015/16)  
      - **Regular El Niño years**  
      - **Climatological mean (non-El Niño) years**  
-   - Output includes spatial maps of shift frequency and SE vs non-SE differences.
-
+   - Output includes spatial maps and temporal evolution of regime shift shift frequency and SE vs non-SE differences.
 ---
 
 ## 🧠 Notes
