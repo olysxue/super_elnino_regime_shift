@@ -83,6 +83,7 @@ These are **demonstration files** — not the full analysis suite — intended t
 | `rsi_seasonally_sst_cesm2_lens.ncl` | NCL | Seasonal SST regime-shift detection in CESM2-LENS. |
 | `rsi_seasonally_sat_cesm2_lens.ncl` | NCL | Regime-shift detection for surface air temperature (SAT) in CESM2-LENS. |
 | `rsi_seasonally_soilw_cesm2_lens2.ncl` | NCL | Surface Soil moisture regime-shift detection example for CESM2-LENS. |
+| `calculate_prob_SAT.ncl` | NCL | Calculates regime-shift probabilities for Super El Niño vs non-SE years after detection verification. |
 | `stars.m` | MATLAB | Core STARS algorithm implementation for 1-D time series validation. |
 | `stars_ERA5_land_soil_moisture.m` | MATLAB | MATLAB example applied to ERA5-Land soil-moisture anomalies. |
 
