@@ -1,9 +1,3 @@
-super_elnino_regime_shift/
-├── figure_code/
-├── Supplementary_figure_code/
-├── regime_shift_detection/
-└── README.md
-
 
 # Code for "".
 
