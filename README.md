@@ -8,8 +8,6 @@ This repository contains the code supporting the manuscript:
 This repository contains the analysis and visualization codes used in the study of **Super El Niño–induced climate regime shifts (CRSs)**.  
 The scripts are organized by purpose — **main figures**, **supplementary analyses**, and **regime-shift detection algorithms** — and written primarily in **NCL** with supporting examples in **MATLAB**.
 
-All codes are designed for reproducibility of key results shown in the main and supplementary figures of the paper.
-
 ---
 
 ## 📂 Repository Structure
