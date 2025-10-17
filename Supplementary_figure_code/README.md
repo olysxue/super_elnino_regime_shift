@@ -1,9 +1,9 @@
 
 # Supplemrntary Figure Scripts (NCL v6.6.2)
 
-This folder contains NCL scripts used to generate the Extended Data Figures (1–10) from the manuscript:
+This folder contains NCL scripts used to generate the Supplementary Figures (1–21) from the manuscript:
 
-**"Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming"**, published in *Nature Communications*.
+**"Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming"**, Accepted in *Nature Communications*.
 
 All scripts were developed and tested with **NCL version 6.6.2**. Each script corresponds to one Extended Data Figure in the paper.
 
