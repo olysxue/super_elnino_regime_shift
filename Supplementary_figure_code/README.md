@@ -20,7 +20,7 @@ All scripts were developed and tested using **NCL version 6.6.2+**.
 |:--|:--:|:--|:--|
 | `S1_plot_mean_regular_ElNino_LaNina_prob.ncl` | Fig. S1 | Calculates global climatological and ENSO-related regime-shift probabilities for SST, SAT, and soil-moisture datasets. | Observational datasets (ERSSTv5, HadISST, ERA5, CPC) from 1948–2022. |
 | `S2_plot_SST_different_datasets_probability1_1948_2022.ncl` | Fig. S2 | Maps increased CRS probabilities due to Super El Niño across multiple SST datasets (ERSSTv5, HadISST, COBE2, Kaplan, etc.). | SST datasets, detrended and regridded (2.5° – 1°). |
-| `S3_plot_SAT_different_datasets_probability_1948_2022.ncl` | Fig. S3 | Maps increased CRS probabilities due to Super El Niño across multiple SAT datasets (NCEP, ERA5, CRUTEM4, GISS, etc.). | Global SAT datasets (land + reanalysis). |
+| `S3_plot_SAT_different_datasets_probability_1948_2022.ncl` | Fig. S3 | Maps increased CRS probabilities due to Super El Niño across multiple SAT datasets (NCEP, ERA5, CRUTEM4, GISS, etc.). | Global SAT datasets. |
 | `S4_plot_Soil_different_datasets_probability_1948-2022.ncl` | Fig. S4 | Maps increased CRS probabilities due to Super El Niño across multiple soil-moisture datasets. | CPC, ERA5-Land, GLDAS, GLEAM, MERRA-2, etc. |
 | `S5_plot_SST_different_datasets_regime_shift_probability_table_new.ncl` | Fig. S5 | Plots annual CRS probabilities (1948–2022) for SST datasets and compares SE vs non-SE years. | Annual CRS probabilities from multiple SST datasets. |
 | `S6_plot_SAT_different_datasets_regime_shift_probility_table_1948-2022_new.ncl` | Fig. S6 | Plots annual CRS probabilities for SAT datasets and highlights enhanced probabilities during Super El Niño events. | SAT CRS probability datasets. |
