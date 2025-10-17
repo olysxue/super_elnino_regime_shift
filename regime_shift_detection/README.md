@@ -17,13 +17,14 @@ This method enables the identification of climate regime shifts (CRSs) in a pure
 ---
 
 ### **Step 2: Apply Pre-Filtering (Optional)**
-- Smooth or band-pass filter the data to remove high-frequency noise.  
+- Smooth or band-pass filter the data to remove high-frequency variability (e.g., 2–8 day or interseasonal noise).
+- Filtering is optional but recommended when focusing on decadal-scale CRSs.
 ---
 
 ### **Step 3: Define a Moving Window**
 - Specify a window length `L` (usually 10 years for climate applications).  
 - The algorithm compares the mean of the **current regime** with that of a **candidate new regime** `L` points ahead.
-
+- 
 ---
 
 ### **Step 4: Perform Sequential t-Tests**
@@ -47,15 +48,6 @@ For each time t:
 
 ---
 
-### **Step 7: Post-Processing and Visualization**
-- Save detected shift years and regime means to NetCDF or CSV files.  
-- Plot:
-  - Time series with vertical lines marking shift points.  
-  - Spatial maps of shift years (if applied to gridded data).  
-- Optionally, compute bootstrap confidence intervals for shift timing and amplitude.
-
----
-
 ### **Typical Output**
 | Variable | Description |
 |-----------|--------------|
@@ -74,5 +66,20 @@ A 10-year moving-window test applied to 1958–2024 SST anomalies may identify p
 
 ---
 
-### **Reference**
-Rodionov, S. N. (2004). *A sequential algorithm for testing climate regime shifts.* **Geophysical Research Letters**, 31, L09204.
+### **References**
+
+Rodionov, S.N., 2004: A sequential algorithm for testing climate regime shifts. Geophys. Res. Lett., 31, L09204, doi:10.1029/2004GL019448.
+
+Rodionov, S.N., 2005a: A brief overview of the regime shift detection methods. In: Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems: Challenges for Management Toward Sustainability, V. Velikova and N. Chipev (Eds.), UNESCO-ROSTE/BAS Workshop on Regime Shifts, 14-16 June 2005, Varna, Bulgaria, 17-24.
+
+Rodionov, S.N., 2005b: Detecting regime shifts in the mean and variance: Methods and specific examples. In: Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems: Challenges for Management Toward Sustainability, V. Velikova and N. Chipev (Eds.), UNESCO-ROSTE/BAS Workshop on Regime Shifts, 14-16 June 2005, Varna, Bulgaria, 68-72.
+
+Rodionov, S.N., 2006: The use of prewhitening in climate regime shift detection, Geophys. Res. Lett., 31, L12707, doi:101029/2006GL025904.
+
+Rodionov, S.N., and J.E. Overland, 2005: Application of a sequential regime shift detection method to the Bering Sea ecosystem. ICES J. Mar. Sci., 62: 328-332.
+
+Rodionov, S.N., J.E. Overland, and N.A. Bond 2004: Detecting Change in the Bering Sea Ecosystem. A PowerPoint file (1.4 Mb) of the presentation at the Symposium on Marine Science in Alaska, Jan 12-14, 2004, Anchorage, Alaska
+
+---
+
+
