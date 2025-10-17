@@ -41,6 +41,6 @@ All scripts were developed and tested with **NCL version 6.6.2**. Each script co
 
 Each script can be executed independently in a terminal with NCL:
 
-ncl S1_plot_mean_regular_ElNino_LaNina_prob.ncl
+ncl S************.ncl
 
 ---
