@@ -1,4 +1,4 @@
-## 🔍 Regime Shift Detection Steps
+## 🔍 Climate Regime Shift Detection Steps
 
 The regime shift detection algorithm identifies statistically significant and persistent changes in the mean state of a climate variable (e.g., SST, SAT, soil moisture or sea ice).  
 The method follows the **Sequential t-test Analysis of Regime Shifts (STARS)** framework (Rodionov 2004) with optional bootstrap confidence testing.
@@ -81,5 +81,10 @@ Rodionov, S.N., and J.E. Overland, 2005: Application of a sequential regime shif
 Rodionov, S.N., J.E. Overland, and N.A. Bond 2004: Detecting Change in the Bering Sea Ecosystem. A PowerPoint file (1.4 Mb) of the presentation at the Symposium on Marine Science in Alaska, Jan 12-14, 2004, Anchorage, Alaska
 
 ---
+### 🔗 Useful Websites
+For detailed algorithm explanation and original source code, see:
+- NOAA Bering Climate Regime Shift site: https://www.beringclimate.noaa.gov/regimes/
+- STARS method documentation: https://www.afsc.noaa.gov/REFM/REEM/STARS/
 
+---
 
