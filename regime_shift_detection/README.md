@@ -66,6 +66,35 @@ A 10-year moving-window test applied to 1958–2024 SST anomalies may identify p
 
 ---
 
+# 📁 Regime Shift Detection
+
+This directory provides representative examples of the **regime shift detection framework** applied in the *Super El Niño–induced Climate Regime Shifts* study.  
+It contains both **NCL** and **MATLAB** implementations of the **Sequential t-test Analysis of Regime Shifts (STARS)** algorithm (Rodionov 2004), illustrating how the detection was performed for different datasets and variables.
+
+These are **demonstration files** — not the full analysis suite — intended to help users reproduce the key detection workflow and adapt it for their own applications.
+
+---
+
+## 📂 Directory Overview
+
+| File | Language | Purpose |
+|------|-----------|----------|
+| `regime_shift_detection_sst_seasonally_ersst.ncl` | NCL | Example workflow for detecting SST regime shifts in the ERSST dataset. |
+| `rsi_seasonally_sst_cesm2_lens.ncl` | NCL | Seasonal SST regime-shift detection in CESM2-LENS. |
+| `rsi_seasonally_sat_cesm2_lens.ncl` | NCL | Regime-shift detection for surface air temperature (SAT) in CESM2-LENS. |
+| `rsi_seasonally_soilw_cesm2_lens2.ncl` | NCL | Soil-moisture regime-shift detection example for CESM2-LENS. |
+| `stars.m` | MATLAB | Core STARS algorithm implementation for 1-D time series validation. |
+| `stars_ERA5_land_soil_moisture.m` | MATLAB | MATLAB example applied to ERA5-Land soil-moisture anomalies. |
+
+---
+
+## 🧠 Notes
+
+- Users can modify the window length (**L**) and significance level (**p**) within each script header.  
+
+---
+
+
 ### **References**
 
 Rodionov, S.N., 2004: A sequential algorithm for testing climate regime shifts. Geophys. Res. Lett., 31, L09204, doi:10.1029/2004GL019448.
