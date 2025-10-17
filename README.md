@@ -17,7 +17,7 @@ All codes are designed for reproducibility of key results shown in the main and 
 | Folder | Description |
 |--------|--------------|
 | **`figure_code/`** | Contains NCL scripts for generating the **main figures** in the paper (Figs. 1–4). Each script reproduces a specific figure using observational and model datasets. |
-| **`Supplementary_figure_code/`** | Includes additional scripts for **supplementary figures (S1–S21)**. These codes compute diagnostics such as regime-shift probabilities, background-state modulation, and energy budget analysis. |
+| **`Supplementary_figure_code/`** | Includes additional scripts for **supplementary figures (S1–S21)**. These codes compute diagnostics such as regime-shift probabilities in multiple reanalysis datasets and associated physical mechanisms. |
 | **`regime_shift_detection/`** | Provides representative examples of the **regime-shift detection framework**, implemented in both NCL and MATLAB. These demonstrate the Sequential t-test Analysis of Regime Shifts (STARS) algorithm used to identify persistent climate mean-state changes. |
 | **`README.md`** | This file — overview of the repository and workflow. |
 
