@@ -16,9 +16,25 @@ The scripts are organized by purpose — **main figures**, **supplementary analy
 | **`figure_code/`** | Contains NCL scripts for generating the **main figures** in the paper (Figs. 1–4). Each script reproduces a specific figure using observational and model datasets. |
 | **`Supplementary_figure_code/`** | Includes additional scripts for **supplementary figures (S1–S21)**. These codes compute diagnostics such as regime-shift probabilities in multiple reanalysis datasets and associated physical mechanisms. |
 | **`regime_shift_detection/`** | Provides representative examples of the **regime-shift detection framework**, implemented in both NCL and MATLAB. These demonstrate the Sequential t-test Analysis of Regime Shifts (STARS) algorithm used to identify persistent climate mean-state changes. |
-| **`README.md`** | This file — overview of the repository and workflow. |
 
 ---
+## ⚙️ Workflow Overview
+
+1. **Data Preparation**
+   - Input data include observational and reanalysis products (e.g., HadISST, ERSSTv5, ERA5, ERA5-Land, CPC, GLDAS) and model simulations (CESM2-LE, CMIP6).
+   - All datasets are **detrended** and **regridded** to 1° × 1° resolution before analysis.
+
+2. **Regime Shift Detection**
+   - Conducted using the **STARS algorithm** (Rodionov, 2004) with configurable parameters:
+     - Window length `L` (6–12 years)
+     - Significance level `p` (0.05, 0.01, 0.001)
+   - Implemented in both NCL (for global fields) and MATLAB (for 1-D validation).
+
+3. **Visualization**
+   - Scripts in `figure_code/` and `Supplementary_figure_code/` generate maps, time series, and probability plots for Super El Niño–induced regime-shift patterns.
+
+---
+
 ## 📦 Data Availability
 
 ▶ **Raw model output sources:**
