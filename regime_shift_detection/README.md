@@ -49,6 +49,12 @@ $$
 \mathrm{RSI}(t)=\sum_{i=1}^{t}\frac{x_i-\bar{x}_{\mathrm{ref}}}{\sigma_{\mathrm{ref}}}
 $$
 
+where:  
+- \( x_i \) — value of the variable at time step *i* (e.g., SST anomaly, SAT anomaly, soil moisture anomaly)  
+- \( \bar{x}_{\mathrm{ref}} \) — mean value of the previous (reference) regime  
+- \( \sigma_{\mathrm{ref}} \) — standard deviation within the previous regime, used for normalization  
+- \( t \) — time index (in years, months, or time steps, depending on input)  
+- \( \mathrm{RSI}(t) \) — cumulative index indicating the direction and strength of the regime shift  
 
 A shift is confirmed when the RSI crosses zero and remains non-zero for at least `L` time steps, indicating a sustained departure from the prior mean state.  
 
