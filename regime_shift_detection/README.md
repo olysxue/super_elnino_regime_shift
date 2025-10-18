@@ -56,7 +56,7 @@ $$
 - **t** — time index (in years, months, or time steps, depending on input)  
 - **RSI(t)** — cumulative index indicating the direction and strength of the regime shift  
 
-A shift is confirmed when the RSI crosses zero and remains non-zero for at least `L` time steps, indicating a sustained departure from the prior mean state.  
+A shift is confirmed when the RSI crosses zero and remains non-zero for at least cut-off length `L`, indicating a sustained departure from the prior mean state.  
 
 **Interpretation**
 - **Positive RSI →** persistent shift toward higher mean values
