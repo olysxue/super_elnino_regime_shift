@@ -139,13 +139,6 @@ This provides a spatial and seasonal map of **Super El Niño–induced regime sh
 
 ---
 
-### **3️⃣ Ensemble Aggregation (CESM2-LE)**
-
-In CESM2-LE, regime-shift detection is performed for each of the 100 ensemble members.  
-The occurrence probabilities are then **aggregated across all members** to improve robustness and reduce internal variability noise.
-
----
-
 ### **4️⃣ Global and Latitudinal Integration**
 
 To obtain an integrated **global probability** view, the annual CRS probability is computed with **latitude weighting**:
