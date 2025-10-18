@@ -1,11 +1,16 @@
 
-# **"Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming"**, Accepted in Nature Communications.
+# **"Super El Niño events drive climate Regime Shifts with Enhanced Risks under Global Warming"**, Accepted in Nature Communications (2025).
 
+## 📘 Overview
 
-## 🗂️ Repository Structure
+This repository contains the analysis and visualization codes used in the study of **Super El Niño–induced Climate Regime Shifts (CRSs)**, which quantifies how extreme ENSO events trigger and amplify abrupt transitions in global climate states.
 
-This repository contains the analysis and visualization codes used in the study of **Super El Niño–induced climate regime shifts (CRSs)**.  
-The scripts are organized by purpose — **main figures**, **supplementary analyses**, and **regime-shift detection algorithms** — and written primarily in **NCL** with supporting examples in **MATLAB**.
+The study integrates:
+- **Observational datasets** (e.g., ERSST, HadISST, ERA5, GLDAS)  
+- **Large-ensemble simulations** (e.g., CESM2-LE, CMIP6)  
+- **Statistical regime-shift detection algorithms** (based on the Sequential t-test Analysis of Regime Shifts, *STARS*)  
+
+All scripts are written primarily in **NCL** (NCAR Command Language), with supporting examples in **MATLAB**.
 
 ---
 
@@ -18,26 +23,27 @@ The scripts are organized by purpose — **main figures**, **supplementary analy
 | **`regime_shift_detection/`** | Provides representative examples of the **regime-shift detection framework**, implemented in both NCL and MATLAB. These demonstrate the Sequential t-test Analysis of Regime Shifts (STARS) algorithm used to identify persistent climate mean-state changes. |
 
 ---
-## ⚙️ Workflow Overview
+## ⚙️ Workflow
 
 1. **Data Preparation**
-   - Input data include observational and reanalysis products (e.g., HadISST, ERSSTv5, ERA5, ERA5-Land, CPC, GLDAS) and model simulations (CESM2-LE, CMIP6).
+   - Input anomaly data include observational and reanalysis products (e.g., HadISST, ERSSTv5, ERA5, ERA5-Land, CPC, GLDAS) and model simulations (CESM2-LE, CMIP6).
    - All datasets are **detrended** and **regridded** to 1° × 1° resolution before analysis.
 
 2. **Regime Shift Detection**
    - Conducted using the **STARS algorithm** (Rodionov, 2004) with configurable parameters:
      - Window length `L` (6–12 years)
      - Significance level `p` (0.05, 0.01, 0.001)
+     - Gridwise detection for gridded datasets (SST, SAT, soil moisture, etc.)
    - Implemented in both NCL (for global fields) and MATLAB (for 1-D validation).
+3. **Regime Shift Occurrence Probability Calculation**
+   - After detection, regime shift probabilities are calculated for:
+   - Total CRS frequency at each grid  
+   - Super El Niño–induced CRS probability
+   - Latitude-weighted global CRS probability time series
 
-3. **Visualization**
+4. **Visualization**
    - Scripts in `figure_code/` and `Supplementary_figure_code/` generate maps, time series, and probability plots for Super El Niño–induced regime-shift patterns.
 
----
-
-## 📦 Data Availability
-
-▶ **Raw model output sources:**
 ---
 
 ## 🛠️ Dependencies
@@ -45,12 +51,8 @@ The scripts are organized by purpose — **main figures**, **supplementary analy
 - [**NCL**](https://www.ncl.ucar.edu/) (tested with version **6.6.2**)  
 - [**CDO**](https://code.mpimet.mpg.de/projects/cdo) (Climate Data Operators)
 - [**NCO**](https://nco.sourceforge.net/) (NetCDF Operators; used for variable merging, dimension trimming, etc.)
+- [**MATLAB R2021a**]
 
----
-
-## 📦 Citation
-
-If you use this code, please cite:
 ---
 ## 📧 Contact
 For questions or assistance with the code and data, please contact:
