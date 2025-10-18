@@ -50,11 +50,11 @@ $$
 $$
 
 **where:**
-- **xi** — value of the variable at time step *i* (e.g., SST anomaly, SAT anomaly, soil moisture anomaly)  
-- **x̄₍ref₎** — mean value of the previous (reference) regime  
-- **σ₍ref₎** — standard deviation within the previous regime, used for normalization  
+- **x<sub>i</sub>** — value of the variable at time step *i* (e.g., SST anomaly, SAT anomaly, soil moisture anomaly)  
+- **x̄<sub>ref</sub>** — mean value of the previous (reference) regime  
+- **σ<sub>ref</sub>** — standard deviation within the previous regime, used for normalization  
 - **t** — time index (in years, months, or time steps, depending on input)  
-- **RSI(t)** — cumulative index indicating the direction and strength of the regime shift 
+- **RSI(t)** — cumulative index indicating the direction and strength of the regime shift  
 
 A shift is confirmed when the RSI crosses zero and remains non-zero for at least `L` time steps, indicating a sustained departure from the prior mean state.  
 
