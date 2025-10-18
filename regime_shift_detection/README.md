@@ -51,6 +51,25 @@ For each time t:
 
 ---
 
+#### 🧮 Regime Shift Index (RSI)
+The **Regime Shift Index (RSI)** quantifies the cumulative deviation from the mean state of the *hypothetical new regime*.  
+It is calculated as the **cumulative sum of normalized anomalies**:
+
+\[
+\text{RSI}(t) = \sum_{i=1}^{t} \frac{x_i - \bar{x}_{\text{ref}}}{\sigma_{\text{ref}}}
+\]
+
+A shift is confirmed when the RSI crosses zero and remains non-zero for at least `L` time steps, indicating a sustained deviation from the previous mean.
+
+**Interpretation**
+- **Positive RSI →** sustained shift toward higher mean values (e.g., warming).  
+- **Negative RSI →** sustained shift toward lower mean values (e.g., cooling).  
+- The **magnitude** of RSI reflects both the strength and duration of the deviation.  
+
+RSI complements the t-test by emphasizing cumulative persistence, making it particularly effective for detecting **decadal or multi-decadal transitions**.
+
+---
+
 ### **Typical Output**
 | Variable | Description |
 |-----------|--------------|
