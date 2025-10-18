@@ -74,6 +74,13 @@ RSI complements the t-test by capturing the cumulative persistence of anomalies,
 
 ---
 
+### 🔗 Useful Websites
+For detailed algorithm explanation and original source code, see:
+- NOAA Bering Climate Regime Shift site: https://www.beringclimate.noaa.gov/regimes/
+- STARS method documentation: https://www.afsc.noaa.gov/REFM/REEM/STARS/
+
+---
+
 ### **Typical Output**
 | Variable | Description |
 |-----------|--------------|
@@ -81,6 +88,26 @@ RSI complements the t-test by capturing the cumulative persistence of anomalies,
 | `mean_before`, `mean_after` | Means of two adjacent regimes |
 | `t_value`, `p_value` | Test statistics |
 | `persistence` | Boolean indicating sustained shift |
+
+---
+
+## 🧠 Notes
+
+- Users can modify the window length (**L**) and significance level (**p**) within each script header.  
+All scripts are **modular** and can be easily adapted to different climate variables or datasets.
+
+---
+
+### **References**
+
+**(1)** **Rodionov, S. N.** (2004). *A sequential algorithm for testing climate regime shifts.*  
+**Geophysical Research Letters**, **31**, L09204. [https://doi.org/10.1029/2004GL019448](https://doi.org/10.1029/2004GL019448)
+
+**(2)** **Rodionov, S. N.** (2006). *The use of prewhitening in climate regime shift detection.*  
+**Geophysical Research Letters**, **31**, L12707. [https://doi.org/10.1029/2006GL025904](https://doi.org/10.1029/2006GL025904)
+
+**(3)** **Rodionov, S. N.**, and **Overland, J. E.** (2005). *Application of a sequential regime shift detection method to the Bering Sea ecosystem.*  
+**ICES Journal of Marine Science**, **62**, 328–332. [https://doi.org/10.1016/j.icesjms.2005.01.013](https://doi.org/10.1016/j.icesjms.2005.01.013)
 
 ---
 
@@ -169,7 +196,7 @@ These steps together quantify **how and where Super El Niño events statisticall
 ---
 
 
-## 📂 Directory Overview
+# 📂 Directory Overview
 
 
 This directory provides representative examples of the **regime shift detection framework** applied in the *Super El Niño–induced Climate Regime Shifts* study.  
@@ -201,40 +228,5 @@ These are **demonstration files** — not the full analysis suite — intended t
    - Output includes spatial maps and temporal evolution of regime shift shift frequency and SE vs non-SE differences.
 ---
 
-## 🧠 Notes
 
-- Users can modify the window length (**L**) and significance level (**p**) within each script header.  
-All scripts are **modular** and can be easily adapted to different climate variables or datasets.
----
-
-
-### **References**
-
-## 📚 References
-
-**(1)** **Rodionov, S. N.** (2004). *A sequential algorithm for testing climate regime shifts.*  
-**Geophysical Research Letters**, **31**, L09204. [https://doi.org/10.1029/2004GL019448](https://doi.org/10.1029/2004GL019448)
-
-**(2)** **Rodionov, S. N.** (2005a). *A brief overview of the regime shift detection methods.*  
-In: **Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems: Challenges for Management Toward Sustainability**,  
-V. Velikova and N. Chipev (Eds.), UNESCO–ROSTE/BAS Workshop on Regime Shifts, 14–16 June 2005, Varna, Bulgaria, pp. 17–24.
-
-**(3)** **Rodionov, S. N.** (2005b). *Detecting regime shifts in the mean and variance: Methods and specific examples.*  
-In: **Large-Scale Disturbances (Regime Shifts) and Recovery in Aquatic Ecosystems**,  
-V. Velikova and N. Chipev (Eds.), UNESCO–ROSTE/BAS Workshop on Regime Shifts, 14–16 June 2005, Varna, Bulgaria, pp. 68–72.
-
-**(4)** **Rodionov, S. N.** (2006). *The use of prewhitening in climate regime shift detection.*  
-**Geophysical Research Letters**, **31**, L12707. [https://doi.org/10.1029/2006GL025904](https://doi.org/10.1029/2006GL025904)
-
-**(5)** **Rodionov, S. N.**, and **Overland, J. E.** (2005). *Application of a sequential regime shift detection method to the Bering Sea ecosystem.*  
-**ICES Journal of Marine Science**, **62**, 328–332. [https://doi.org/10.1016/j.icesjms.2005.01.013](https://doi.org/10.1016/j.icesjms.2005.01.013)
-
-
----
-### 🔗 Useful Websites
-For detailed algorithm explanation and original source code, see:
-- NOAA Bering Climate Regime Shift site: https://www.beringclimate.noaa.gov/regimes/
-- STARS method documentation: https://www.afsc.noaa.gov/REFM/REEM/STARS/
-
----
 
