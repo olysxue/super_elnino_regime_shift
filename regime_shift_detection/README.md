@@ -188,7 +188,6 @@ This latitude-weighted integration provides a globally consistent estimate of th
 ### 🧮 Summary
 - Detect regime shifts (annual and seasonal) for each grid cell  
 - Calculate total and SE-specific CRS probabilities  
-- Aggregate ensemble members for robustness  
 - Compute latitude-weighted global CRS probability time series  
 
 These steps together quantify **how and where Super El Niño events statistically increase the probability of climate regime shifts**.
