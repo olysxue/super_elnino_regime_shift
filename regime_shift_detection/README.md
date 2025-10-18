@@ -50,7 +50,7 @@ $$
 $$
 
 **where:**
-- **xₙ** — value of the variable at time step *i* (e.g., SST anomaly, SAT anomaly, soil moisture anomaly)  
+- **xi** — value of the variable at time step *i* (e.g., SST anomaly, SAT anomaly, soil moisture anomaly)  
 - **x̄₍ref₎** — mean value of the previous (reference) regime  
 - **σ₍ref₎** — standard deviation within the previous regime, used for normalization  
 - **t** — time index (in years, months, or time steps, depending on input)  
