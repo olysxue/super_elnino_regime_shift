@@ -26,15 +26,15 @@ All scripts are written primarily in **NCL** (NCAR Command Language), with suppo
 ## ⚙️ Workflow
 
 1. **Data Preparation**
-   - Input anomaly data include observational and reanalysis products (e.g., HadISST, ERSSTv5, ERA5, ERA5-Land, CPC, GLDAS) and model simulations (CESM2-LE, CMIP6).
-   - All datasets are **detrended** and **regridded** to 1° × 1° resolution before analysis.
+   - Input  data for SST, Surface Air temperature and surface soil moisture for observational and reanalysis products (e.g., HadISST, ERSSTv5, ERA5, ERA5-Land, CPC, GLDAS) and model simulations (CESM2-LE, CMIP6).
+   - All datasets are **detrended** and **regridded** to 1° × 1° resolution, and expressed as anomalies** prior to detection.
 
 2. **Regime Shift Detection**
    - Conducted using the **STARS algorithm** (Rodionov, 2004) with configurable parameters:
      - Window length `L` (6–12 years)
      - Significance level `p` (0.05, 0.01, 0.001)
-     - Gridwise detection for gridded datasets (SST, SAT, soil moisture, etc.)
-   - Implemented in both NCL (for global fields) and MATLAB (for 1-D validation).
+     - Gridwise detection for gridded datasets
+      
 3. **Regime Shift Occurrence Probability Calculation**
    - After detection, regime shift probabilities are calculated for:
    - Total CRS frequency at each grid  
