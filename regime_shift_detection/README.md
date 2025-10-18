@@ -90,6 +90,91 @@ A 10-year moving-window test applied to 1958–2024 SST anomalies may identify p
 - **1998:** Post-Super El Niño cooling phase,  
 - **2016:** Recent Super El Niño-induced shift toward a new warming regime.
 ---
+# 📈 Regime Shift Occurrence Probability Calculation
+
+To enhance the statistical robustness of the regime shift analysis, Climate Regime Shifts (CRSs) were detected in both **observational** and **climate model** datasets, for:
+- **Annual mean**, and  
+- **Four meteorological seasons:**  
+  - **DJF** (December–February)  
+  - **MAM** (March–May)  
+  - **JJA** (June–August)  
+  - **SON** (September–November)
+
+---
+
+### **1️⃣ Grid-level CRS Probability**
+
+For each grid cell, the total probability of CRS occurrence is computed as:
+
+$$
+\mathrm{Prob}_t(x,y) = \frac{n(x,y)}{T}
+$$
+
+where:
+- **n(x,y)** — number of years in which a regime shift was detected at grid location *(x, y)*  
+- **T** — total number of years in the time series  
+
+---
+
+### **2️⃣ Super El Niño–Induced CRS Probability**
+
+To quantify the specific influence of **Super El Niño (SE)** events, the CRS probability due to Super El Niño is defined as:
+
+$$
+\mathrm{Prob}_{SE}(x,y) = \frac{n_{SE}(x,y)}{T_{SE}}
+$$
+
+where:
+- **n<sub>SE</sub>(x,y)** — number of regime shifts detected during Super El Niño development or following years  
+- **T<sub>SE</sub>** — total number of Super El Niño years (e.g., 1982–83, 1997–98, 2015–16 in observations)
+
+The enhanced CRS probability associated with Super El Niño is calculated as:
+
+$$
+\Delta \mathrm{Prob}(x,y) = \mathrm{Prob}_{SE}(x,y) - \mathrm{Prob}_t(x,y)
+= \frac{n_{SE}(x,y)}{T_{SE}} - \frac{n(x,y)}{T}
+$$
+
+This provides a spatial and seasonal map of **Super El Niño–induced regime shift enhancement**.
+
+---
+
+### **3️⃣ Ensemble Aggregation (CESM2-LE)**
+
+In CESM2-LE, regime-shift detection is performed for each of the 100 ensemble members.  
+The occurrence probabilities are then **aggregated across all members** to improve robustness and reduce internal variability noise.
+
+---
+
+### **4️⃣ Global and Latitudinal Integration**
+
+To obtain an integrated **global probability** view, the annual CRS probability is computed with **latitude weighting**:
+
+$$
+\mathrm{Prob}(i) = 
+\frac{\int_{-\pi/2}^{\pi/2} \cos\phi \, n(i,\phi) \, d\phi}
+{\int_{-\pi/2}^{\pi/2} \cos\phi \, N(\phi) \, d\phi}
+$$
+
+where:
+- **n(i,φ)** — number of CRSs detected at latitude φ during year *i*  
+- **N(φ)** — number of grid cells at latitude φ  
+- **cosφ weighting** — ensures accurate area representation across latitudes
+
+This latitude-weighted integration provides a globally consistent estimate of the temporal evolution of CRS occurrence probabilities.
+
+---
+
+### 🧮 Summary
+- Detect regime shifts (annual and seasonal) for each grid cell  
+- Calculate total and SE-specific CRS probabilities  
+- Aggregate ensemble members for robustness  
+- Compute latitude-weighted global CRS probability time series  
+
+These steps together quantify **how and where Super El Niño events statistically increase the probability of climate regime shifts**.
+
+---
+
 
 ## 📂 Directory Overview
 
