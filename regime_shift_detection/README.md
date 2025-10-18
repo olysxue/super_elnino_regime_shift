@@ -1,5 +1,5 @@
 
-# 📁 Regime Shift Detection
+# 📁 1. Regime Shift Detection
 
 ## 🔍 Climate Regime Shift Detection Steps
 
@@ -117,7 +117,7 @@ A 10-year moving-window test applied to 1958–2024 SST anomalies may identify p
 - **1998:** Post-Super El Niño cooling phase,  
 - **2016:** Recent Super El Niño-induced shift toward a new warming regime.
 ---
-# 📈 Regime Shift Occurrence Probability Calculation
+# 📈 2. Regime Shift Occurrence Probability Calculation
 
 To enhance the statistical robustness of the regime shift analysis, Climate Regime Shifts (CRSs) were detected in both **observational** and **climate model** datasets, for:
 - **Annual mean**, and  
@@ -215,7 +215,7 @@ These are **demonstration files** — not the full analysis suite — intended t
 | `stars_ERA5_land_soil_moisture.m` | MATLAB | MATLAB example applied to ERA5-Land soil-moisture anomalies. |
 
 ---
-## ⚙️ Workflow Summary
+## ⚙️3. Workflow Summary
 
 1. **Detection** – Apply the STARS algorithm to identify significant and persistent mean-state shifts for each grid point or region.   
 3. **Probability Calculation** –  
