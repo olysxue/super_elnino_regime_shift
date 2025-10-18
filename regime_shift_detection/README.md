@@ -42,31 +42,28 @@ For each time t:
 - The detected shift must persist for at least `L` subsequent points with the same sign of anomaly.  
 - Otherwise it is classified as a transient fluctuation and discarded.
 
+#### 🧮 Regime Shift Index (RSI)
+To verify persistence quantitatively, the **Regime Shift Index (RSI)** is calculated as the **cumulative sum of normalized anomalies** relative to the previous regime mean:
+
+\[
+\text{RSI}(t) = \sum_{i=1}^{t} \frac{x_i - \bar{x}_{\text{ref}}}{\sigma_{\text{ref}}}
+\]
+
+A shift is confirmed when the RSI crosses zero and remains non-zero for at least `L` time steps, indicating a sustained departure from the prior mean state.  
+
+**Interpretation**
+- **Positive RSI →** persistent shift toward higher mean values (e.g., warming)  
+- **Negative RSI →** persistent shift toward lower mean values (e.g., cooling)  
+- The **magnitude** of RSI reflects both the strength and duration of the deviation.  
+
+RSI complements the t-test by capturing the cumulative persistence of anomalies, making it especially useful for identifying decadal or multi-decadal transitions.
+
 ---
 
 ### **Step 6: Update Regime Mean**
 - Once a significant and persistent shift is confirmed,  
   - Update the reference mean to the new regime.  
   - Record the shift year, mean difference, and significance level.
-
----
-
-#### 🧮 Regime Shift Index (RSI)
-The **Regime Shift Index (RSI)** quantifies the cumulative deviation from the mean state of the *hypothetical new regime*.  
-It is calculated as the **cumulative sum of normalized anomalies**:
-
-\[
-\text{RSI}(t) = \sum_{i=1}^{t} \frac{x_i - \bar{x}_{\text{ref}}}{\sigma_{\text{ref}}}
-\]
-
-A shift is confirmed when the RSI crosses zero and remains non-zero for at least `L` time steps, indicating a sustained deviation from the previous mean.
-
-**Interpretation**
-- **Positive RSI →** sustained shift toward higher mean values (e.g., warming).  
-- **Negative RSI →** sustained shift toward lower mean values (e.g., cooling).  
-- The **magnitude** of RSI reflects both the strength and duration of the deviation.  
-
-RSI complements the t-test by emphasizing cumulative persistence, making it particularly effective for detecting **decadal or multi-decadal transitions**.
 
 ---
 
