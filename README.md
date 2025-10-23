@@ -48,10 +48,10 @@ All scripts are written primarily in **NCL** (NCAR Command Language), with suppo
 
 ## 📦 Data Availability
 
-The processed datasets used to generate the figures in this manuscript are archived on Zenodo:
+The processed datasets used to generate the figures in this manuscript are archived on Zenodo:  
+https://doi.org/10.5281/zenodo.17383301
 
-▶ **Zenodo Archive (TIW-EKE, BTR/BCR, filtered fields, and flux diagnostics)**  
-(https://doi.org/10.5281/zenodo.17383301)
+---
 
 ## 🛠️ Dependencies
 
